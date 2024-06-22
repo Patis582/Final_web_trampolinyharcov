@@ -1,0 +1,7 @@
+.sipka{
+    transition: all 0.2s ease-in;
+}
+.sipka:hover{
+    transform: translateX(0.2rem);
+    transition: all 0.1s ease;
+}

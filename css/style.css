@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
 body{
-    background-image: url(../imgs/BG.jpg);
+    
     background-blend-mode: multiply;
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,4 +79,37 @@ body{
         margin-left: 2rem;
         font-size: 15px;
     }
+}
+
+@keyframes bgcolor {
+    0% {
+       background-image: url(../imgs/BG.jpg);
+    }
+
+    30% {
+        background-image: url(../imgs/BG.jpg);
+    }
+
+    40% {
+        background-image: url(../imgs/Screenshot_2024-06-10_at_11.59.19.png);
+    }
+
+    70% {
+        background-image: url(../imgs/Screenshot_2024-06-10_at_11.59.19.png);
+    }
+
+    80% {
+        background-image: url(../imgs/Screenshot_2024-06-10_at_11.59.47.png);
+    }
+    100% {
+        background-image: url(../imgs/Screenshot_2024-06-10_at_11.59.47.png);
+    }
+    
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
 }

@@ -15,7 +15,7 @@
      <script src="https://cdn.tailwindcss.com"></script>
      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
      
-    <title>Aktuality</title>
+    <title>Přispět</title>
 </head>
 <body>
 
@@ -71,66 +71,134 @@
     </header>
 
     <main>
-      <section class="text-gray-600 body-font overflow-hidden">
-        <div class="container mx-auto">
-            <div class="py-24">
+        <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container mx-auto">
+              <div class="py-24">
                 <div class="lg:w-4/5 flex flex-wrap">
-                    <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded cursor-pointer" src="https://dummyimage.com/400x400" onclick="showModal('')">
-                    <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 flex flex-col justify-between">
-                        <div>
-                            <h2 class="text-sm title-font text-gray-500 tracking-widest">www.trampoliny.cz</h2>
-                            <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Tričko</h1>
-                            
-                            <p class="leading-relaxed">Koupí trika přispějete částku 400,- Kč na stavbu sportovního areálu. Triko je z materiálu……. 
-                                Po vyplnění dotazníku a zaslání částky Vám pošleme zboží na adresu nebo si ho můžete vyzvednout na recepci v Trampolínovém centru Orionka. 
-                                Termín vyzvednutí si domluvte na tel.č. 605285590. Pokud požadovaná velikost není na skladě. Sdělíme Vám termín plánovaného zadání do výroby a následně vás vyzveme k vyzvednutí. Poštovné není součástí platby. 
-                                Lze poslat i částku vyšší.  😊 
-                            </p>
-                        </div>
-                        <div class="flex mt-4">
-                            <span class="title-font font-medium text-2xl text-gray-900">400.00,- Kč</span>
-                            <button class="flex ml-auto text-white border-0 py-2 px-6 focus:outline-none rounded fotky" style="background-color: rgb(122, 178, 178);">Koupit</button>
-                        </div>
+                  <div class="slideshow-container lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded cursor-pointer">
+          
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 7</div>
+                      <img class="rounded-3" src="../imgs/IMG_5685.jpeg" style="width:100%" onclick="showModal('../imgs/IMG_5685.jpeg')">
+                      
                     </div>
-                </div>
-            </div>
-        </div>
-      </section>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 7</div>
+                      <img class="rounded-3" src="../imgs/IMG_5708.jpeg" style="width:100%" onclick="showModal('../imgs/IMG_5708.jpeg')">
+                      
+                    </div>
 
-      <section class="text-gray-600 body-font overflow-hidden">
-        <div class="container mx-auto">
-            <div class="py-24">
-                <div class="lg:w-4/5 flex flex-wrap">
-                    <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded cursor-pointer" src="https://dummyimage.com/400x400" onclick="showModal('')">
-                    <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 flex flex-col justify-between">
-                        <div>
-                            <h2 class="text-sm title-font text-gray-500 tracking-widest">www.trampoliny.cz</h2>
-                            <h1 id="cihlickaNadpis" class="text-gray-900 text-3xl title-font font-medium mb-4">Cihlička - Standardní</h1>
-                            
-                            <p class="leading-relaxed">Koupí cihličky přispějete zaslanou částkou na stavbu sportovního areálu. 
-                                Cihličky budou „tvořit“ stěnu v interieru vstupní haly. Na cihličkách bude pomocí lasseru přenesen Váš grafický návrh. 
-                                Svůj grafický návrh namalovaný ve formátu A4 naležato, ale jen na 2/3 výšky (290x140 mm) pošlete ve formátu JPG na email:  nový uživatel………..
-                                Pro psaní použijte černý fix o síle 1,0 mm. Po zaslání částky bude cihlička zadána do výroby. 
-                            </p>
-                            <div class="flex mt-4 mb-4">
-                                <span class="mr-3">Barva</span>
-                                <button onclick="standardniCihla()" title="Standardní" class="border-2 border-gray-300 ml-1 bg-slate-300 rounded-full w-6 h-6 focus:outline-none"></button>
-                                <button onclick="bronzovaCihla()" title="Bronzová" class="border-2 border-gray-300 ml-1  rounded-full w-6 h-6 focus:outline-none" style="background-color: rgb(205,127,50);"></button>
-                                <button onclick="stribrnaCihla()" title="Stříbrná" class="border-2 border-gray-300 ml-1 bg-slate-300 rounded-full w-6 h-6 focus:outline-none" style="background-color: rgb(192,192,192);"></button>
-                                <button onclick="zlataCihla()" title="Zlatá" class="border-2 border-gray-300 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none" style="background-color: rgb(255,215,0 );"></button>
-                            </div>
-                            <hr>
-                        </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 7</div>
+                        <img class="rounded-3" src="../imgs/IMG_5731.jpeg" style="width:100%" onclick="showModal('../imgs/IMG_5731.jpeg')">
                         
-                        <div class="flex mt-4">
-                            <span id="cihlickaCena" class="title-font font-medium text-2xl text-gray-900">2.500,- Kč</span>
-                            <button class="flex ml-auto text-white border-0 py-2 px-6 focus:outline-none rounded fotky" style="background-color: rgb(122, 178, 178);">Koupit</button>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 7</div>
+                        <img class="rounded-3" src="../imgs/IMG_5741.jpeg" style="width:100%" onclick="showModal('../imgs/IMG_5741.jpeg')">
+                        
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 7</div>
+                        <img class="rounded-3" src="../imgs/IMG_5745.jpeg" style="width:100%" onclick="showModal('../imgs/IMG_5745.jpeg')">
+                        
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">6 / 7</div>
+                        <img class="rounded-3" src="../imgs/IMG_5749.jpeg" style="width:100%" onclick="showModal('../imgs/IMG_5749.jpeg')">
+                        
+                    </div>
+
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">7 / 7</div>
+                        <img class="rounded-3" src="../imgs/IMG_5755.jpeg" style="width:100%" onclick="showModal('../imgs/IMG_5755.jpeg')">
+                        
+                    </div>
+                    
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+                    <div style="text-align:center" class="mt-2">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                        <span class="dot" onclick="currentSlide(6)"></span>
+                        <span class="dot" onclick="currentSlide(7)"></span>
+                    </div>
+                  </div>
+                  <br>
+                  
+                  <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 flex flex-col justify-between">
+                    <div>
+                      <h2 class="text-sm title-font text-gray-500 tracking-widest">www.trampoliny.cz</h2>
+                      <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Tričko</h1>
+                      
+                      <p class="leading-relaxed">
+                        Koupí trika přispějete částku 400,- Kč na stavbu sportovního areálu. Triko je z materiálu……. 
+                        Po vyplnění dotazníku a zaslání částky Vám pošleme zboží na adresu nebo si ho můžete vyzvednout na recepci v Trampolínovém centru Orionka. 
+                        Termín vyzvednutí si domluvte na tel.č. 605285590. Pokud požadovaná velikost není na skladě. Sdělíme Vám termín plánovaného zadání do výroby a následně vás vyzveme k vyzvednutí. Poštovné není součástí platby. 
+                        Lze poslat i částku vyšší. 😊 
+                      </p>
+                      <br>
+                      <hr>
+                    </div>
+                    <div class="flex mt-4">
+                      <span class="title-font font-medium text-2xl text-gray-900">400.00,- Kč</span>
+                      <button class="flex ml-auto text-white border-0 py-2 px-6 focus:outline-none rounded fotky" style="background-color: rgb(122, 178, 178);">Koupit</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+          
+
+        <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container mx-auto">
+                <div class="py-24">
+                    <div class="lg:w-4/5 flex flex-wrap">
+                        
+                        <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 flex flex-col justify-between">
+                            <div>
+                                <h2 class="text-sm title-font text-gray-500 tracking-widest">www.trampoliny.cz</h2>
+                                <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Cihličky s vlastním designem</h1>
+                                <h3 class="text-gray-500 font-medium">Cihlička - <span id="cihlickaNadpis">Základní</span></h3>
+                                <p class="leading-relaxed">Koupí cihličky přispějete zaslanou částkou na stavbu sportovního areálu. 
+                                    Cihličky budou „tvořit“ stěnu v interieru vstupní haly. Na cihličkách bude pomocí lasseru přenesen Váš grafický návrh. 
+                                    Svůj grafický návrh namalovaný ve formátu A4 naležato, ale jen na 2/3 výšky (290x140 mm) pošlete ve formátu JPG na email:  nový uživatel………..
+                                    Pro psaní použijte černý fix o síle 1,0 mm. Po zaslání částky bude cihlička zadána do výroby. 
+                                </p>
+                                <div class="flex mt-4">
+                                    
+                                    <button onclick="standardniCihla()" title="Základní" class="border-2 border-gray-300 ml-1 bg-slate-300 rounded-full w-6 h-6 focus:outline-none"></button>
+                                    <button onclick="bronzovaCihla()" title="Bronzová" class="border-2 border-gray-300 ml-1  rounded-full w-6 h-6 focus:outline-none" style="background-color: rgb(205,127,50);"></button>
+                                    <button onclick="stribrnaCihla()" title="Stříbrná" class="border-2 border-gray-300 ml-1 bg-slate-300 rounded-full w-6 h-6 focus:outline-none" style="background-color: rgb(192,192,192);"></button>
+                                    <button onclick="zlataCihla()" title="Zlatá" class="border-2 border-gray-300 ml-1 bg-indigo-500 rounded-full w-6 h-6 focus:outline-none" style="background-color: rgb(255,215,0 );"></button>
+                                </div>
+                                <div class="flex mt-2 mb-4">
+                                    <span class="mr-1">Barva: </span>
+                                    <span id="cihlickaBarva">Základní</span>
+                                </div>
+                                <hr>
+                            </div>
+                            
+                            <div class="flex mt-4">
+                                <span id="cihlickaCena" class="title-font font-medium text-2xl text-gray-900">2.500,- Kč</span>
+                                <button class="flex ml-auto text-white border-0 py-2 px-6 focus:outline-none rounded fotky" style="background-color: rgb(122, 178, 178);">Koupit</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-      </section>
+        </section>
     
     </main>
 
@@ -202,31 +270,83 @@
     <script>
         let nadpis;
         let cena;
+        let barva;
         function setText(){
             document.getElementById("cihlickaNadpis").innerText = nadpis;
             document.getElementById("cihlickaCena").innerText = cena;
+            document.getElementById("cihlickaBarva").innerText = barva;
         }
 
         function zlataCihla(){
-            nadpis = "Cihlička - Zlatá";
+            nadpis = "Zlatá";
             cena = "50.000,- Kč";
+            barva = "Zlatá";
             setText();
         }
         function stribrnaCihla(){
-            nadpis = "Cihlička - Stříbrná";
+            nadpis = "Stříbrná";
             cena = "25.000,- Kč";
+            barva = "Stříbrná";
             setText();
         }
         function bronzovaCihla(){
-            nadpis = "Cihlička - Bronzová";
+            nadpis = "Bronzová";
             cena = "10.000,- Kč";
+            barva = "Bronzová";
             setText();
         }
         function standardniCihla(){
-            nadpis = "Cihlička - Standardní";
+            nadpis = "Základní";
             cena = "2.500,- Kč";
+            barva = "Základní";
             setText();
         }
+    </script>
+    <script>
+        let slideIndex = 1;
+        let slideTimer;
+
+        showSlides(slideIndex);
+        startSlideTimer();
+
+        function plusSlides(n) {
+            clearInterval(slideTimer);
+            showSlides(slideIndex += n);
+            startSlideTimer();
+        }
+
+        function currentSlide(n) {
+            learInterval(slideTimer);
+            showSlides(slideIndex = n);
+            startSlideTimer();
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                slides[i].classList.remove("fade-in");
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            slides[slideIndex - 1].classList.add("fade-in");
+            slides[slideIndex - 1].style.opacity = "1"; // Explicitně nastav opacity na 1
+            dots[slideIndex - 1].className += " active";
+        }
+
+        function startSlideTimer() {
+        slideTimer = setInterval(() => {
+            plusSlides(1);
+        }, 5000);
+        }
+
+
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
